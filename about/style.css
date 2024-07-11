@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: brown;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav h1{
+    color: brown;
+}
+ img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    
+}
+
+nav ul  li{
+    margin: 0, 10px;
+}
+nav ul li a{
+    margin: 0% 10px;
+    text-decoration: none;
+    color: beige;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 0 20px;
+}
+#para{
+    margin-left: 80px;
+}
+
+
+/* portfolio................................ */
+.maindiv{
+display:flex; 
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;
+padding: 50px;
+
+}
+.subdiv{
+width: 200px;
+height: 300px;
+text-align: center;
+border-radius: 10px;
+background: linear-gradient(90deg, #000000,#230b10,#331016,#230b10,#000000);
+box-shadow: 2px 4px 8px rgb(8, 8, 8);
+color:#fff;
+}
+.subdiv :hover{
+    background: linear-gradient(90deg, #d9c9fe,#000000);
+   
+}
+
+
+/* .................... */
+.group{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-color: #000000;
+
+}
+
+.submit-btn {
+    align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 1em 2em;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;}
+
+.submit-btn:hover {
+        background-color: #444;}
+
+
+input, textarea {
+     padding: 1em;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+
+input:hover, textarea:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);}
+
+        
+label {
+     display: block;
+     margin-bottom: 1px;
+        }        
+        
+
+        nav {
+            background-color: #312f2f;
+            padding: 1px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }        
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        nav a {
+            color: #c09e9e;
+            text-decoration: none;
+        }
+        
+nav a:hover {
+	color: #cccccc;
+}
+
+.btn {
+	background-color:rgb(29, 27, 27);
+	color: #c59c9c;
+	padding: 1px 2px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #444;
+}
+body{
+    background-color: rgb(199, 81, 110);
+}
+    
+.heading1{
+    font-size: 50px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
